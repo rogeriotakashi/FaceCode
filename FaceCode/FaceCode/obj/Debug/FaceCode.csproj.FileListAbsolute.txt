@@ -72,3 +72,7 @@ C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\pt-br\System.We
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.csprojResolveAssemblyReference.cache
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.dll
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.pdb
+C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\EntityFramework.dll
+C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\EntityFramework.SqlServer.dll
+C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\EntityFramework.xml
+C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\EntityFramework.SqlServer.xml
