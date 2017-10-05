@@ -12,6 +12,8 @@ namespace FaceCode.Controllers
     {
         public ActionResult Index()
         {
+          
+
             return View();
         }
 

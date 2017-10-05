@@ -15,6 +15,7 @@ namespace FaceCode.DAO
             using (var context = new FaceCodeContext())
             {
                 context.Users.Add(user);
+                context.SaveChanges();
             }
         }
 
