@@ -11,9 +11,19 @@
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header white">
-                @Html.ActionLink("FaceCode", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            <div class="navbar-header">
+                @Html.ActionLink("FaceCode", "Index", "Home", new { area = "" }, new { @class = "navbar-brand custom-nav-header" })
+                
             </div>
+            
+            <form class="form-inline text-right margin-top-12">
+                <label for="username" class="white">Username:</label>
+                <input class="form-control login-input" type="text" name="username">
+
+                <label for="password" class="white">Password:</label>
+                <input class="form-control login-input" type="password" name="password" />
+                <button class="btn login-btn" type="submit">Login</button>
+            </form>
         </div>
     </div>
     <div class="container body-content">
