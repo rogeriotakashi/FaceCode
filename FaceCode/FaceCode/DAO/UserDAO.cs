@@ -19,12 +19,12 @@ namespace FaceCode.DAO
             }
         }
 
-        public User Find (string username , string password)
+        public User Find (string email , string password)
         {
             using (var context = new FaceCodeContext())
             {
                 return context.Users.FirstOrDefault(user =>
-                user.username == username && user.password == password);
+                user.email == email && user.password == password);
             }
         }        
         

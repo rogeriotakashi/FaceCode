@@ -13,7 +13,10 @@ namespace FaceCode.Models
 
         [StringLength(50)]
         [Index(IsUnique=true)]
-        public string username { get; set; }
+        [Required]
+        public string email { get; set; }
+
+        [Required]
         public string password { get; set; }
 
     }

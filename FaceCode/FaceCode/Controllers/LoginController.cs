@@ -32,5 +32,10 @@ namespace FaceCode.Controllers
 
             
         }
+
+        public ActionResult SignUp()
+        {
+            return View();
+        }
     }
 }
