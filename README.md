@@ -1,6 +1,5 @@
 # FaceCode
-An Social Media to share small pieces of code everyday
-
+An Site to store code
 # Tecnology Used
 ASP.Net
 EntityFramework
