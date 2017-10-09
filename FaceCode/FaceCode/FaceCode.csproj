@@ -151,8 +151,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Controllers\UserPageController.cs" />
     <Compile Include="DAO\FaceCodeContext.cs" />
+    <Compile Include="DAO\PostDAO.cs" />
     <Compile Include="DAO\UserDAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -165,7 +167,12 @@
     <Compile Include="Migrations\201710052025450_Change username to email.Designer.cs">
       <DependentUpon>201710052025450_Change username to email.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710091412351_InitialCreate Post.cs" />
+    <Compile Include="Migrations\201710091412351_InitialCreate Post.Designer.cs">
+      <DependentUpon>201710091412351_InitialCreate Post.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Post.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -215,6 +222,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Post\" />
     <Folder Include="Views\UserInfo\" />
   </ItemGroup>
   <ItemGroup>
@@ -238,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710052025450_Change username to email.resx">
       <DependentUpon>201710052025450_Change username to email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710091412351_InitialCreate Post.resx">
+      <DependentUpon>201710091412351_InitialCreate Post.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

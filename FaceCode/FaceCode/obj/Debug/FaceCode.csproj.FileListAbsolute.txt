@@ -79,3 +79,4 @@ C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\bin\EntityFramework
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.Migrations.InitialCreate.resources
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.csproj.GenerateResource.Cache
 C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.Migrations.Changeusernametoemail.resources
+C:\Users\ROGERIO\Documents\GitHub\FaceCode\FaceCode\FaceCode\obj\Debug\FaceCode.Migrations.InitialCreatePost.resources

@@ -9,7 +9,7 @@ namespace FaceCode.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "FaceCode.DAO.FaceCodeContext";
         }
 
