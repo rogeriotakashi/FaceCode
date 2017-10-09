@@ -16,10 +16,10 @@ namespace FaceCode.Controllers
             return View();
         }
 
-        public ActionResult Validate(string username, string password)
+        public ActionResult Validate(string email, string password)
         {
             UserDAO userDAO = new UserDAO();
-            User user = userDAO.Find(username, password);
+            User user = userDAO.Find(email, password);
             if (user != null)
             {
                 Session["UserLogged"] = user;
@@ -36,6 +36,14 @@ namespace FaceCode.Controllers
         public ActionResult SignUp()
         {
             return View();
+        }
+
+        public ActionResult AddUser(string email,string password)
+        {
+            UserDAO userDAO = new UserDAO();
+            userDAO.Add(new User() { email = email, password = password });
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }

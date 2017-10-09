@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
@@ -13,17 +13,9 @@
         <div class="container">
             <div class="navbar-header">
                 @Html.ActionLink("FaceCode", "Index", "Home", new { area = "" }, new { @class = "navbar-brand custom-nav-header" })
-                
-            </div>
-            
-            <form action="/Login/Validate" class="form-inline text-right margin-top-12" method="post">
-                <label for="username" class="white">Username:</label>
-                <input class="form-control login-input" type="text" name="email">
 
-                <label for="password" class="white">Password:</label>
-                <input class="form-control login-input" type="password" name="password" />
-                <button class="btn login-btn" type="submit">Login</button>
-            </form>
+            </div>
+
         </div>
     </div>
     <div class="container body-content">
