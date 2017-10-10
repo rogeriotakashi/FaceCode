@@ -2,6 +2,40 @@
 @{
     ViewBag.Title = "Index";
 }
+<h3 class="display-3">File I/O in C#</h3>
 
-<h2>Posts Page Section</h2>
 
+<pre><code class="c#">// sample C# code for basic file I/O operations 
+// exceptions ignored for code simplicity 
+
+class TestFileIO
+{
+    static void Main() 
+    {
+        string fileName = "test.txt";  // a sample file name 
+
+        // Delete the file if it exists. 
+        if (System.IO.File.Exists(fileName))
+        {
+            System.IO.File.Delete(fileName);
+        }
+
+        // Create the file. 
+        using (System.IO.FileStream fs = System.IO.File.Create(fileName, 1024)) 
+        {
+            // Add some information to the file. 
+            byte[] info = new System.Text.UTF8Encoding(true).GetBytes("This is some text in the file.");
+            fs.Write(info, 0, info.Length);
+        }
+
+        // Open the file and read it back. 
+        using (System.IO.StreamReader sr = System.IO.File.OpenText(fileName)) 
+        {
+            string s = "";
+            while ((s = sr.ReadLine()) != null) 
+            {
+                System.Console.WriteLine(s);
+            }
+        }
+    }
+}</code></pre>
