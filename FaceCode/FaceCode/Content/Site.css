@@ -49,3 +49,9 @@ textarea {
 .navbar-inverse .navbar-brand {
     color: #FFF;
 }
+
+.custom-nav {
+    padding: 0;
+    margin-bottom: 100%;
+}
+

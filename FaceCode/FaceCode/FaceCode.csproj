@@ -219,10 +219,10 @@
     <Content Include="Views\UserPage\Index.cshtml" />
     <Content Include="Views\Login\SignUp.cshtml" />
     <Content Include="Views\Shared\_UserPageLayout.cshtml" />
+    <Content Include="Views\Post\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Post\" />
     <Folder Include="Views\UserInfo\" />
   </ItemGroup>
   <ItemGroup>
